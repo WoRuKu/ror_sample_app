@@ -1,7 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
+$gray-medium-light: #eaeaea;
 /* universal */
 
 body {
@@ -74,7 +74,7 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid $gray-medium-light;
   color: #777;
 }
 
@@ -137,16 +137,26 @@ aside {
   margin-top: 15px;
 }
 
-
-/* debug */
-
-$gray-medium-light: #eaeaea;
-
+/* mixin for forms and debug */
 @mixin box_sizing {
   -moz-box-sizing:    border-box;
   -webkit-box-sizing: border-box;
   box-sizing:         border-box;
 }
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box_sizing;
+}
+
+input {
+  height: auto !important;
+}
+
+/* debug */
 
 /* miscellaneous */
 
