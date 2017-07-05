@@ -9,6 +9,12 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.4'
 gem 'bootstrap-sass', '3.3.7'
+# Use faker to make sample users with semi-realistic names and email addresses 
+gem 'faker',          '1.7.3'
+# Use will_paginate to paginate the users
+gem 'will_paginate',           '3.1.5'
+# Configures will_paginate to use Bootstrap’s pagination styles
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
