@@ -11,6 +11,13 @@ gem 'rails', '~> 5.0.4'
 gem 'bootstrap-sass', '3.3.7'
 # Use faker to make sample users with semi-realistic names and email addresses 
 gem 'faker',          '1.7.3'
+# Use CarrierWave image uploader to handle an uploaded image and 
+# associate it with the Micropost model
+gem 'carrierwave',             '1.1.0'
+# Use mini_magick for image resizing
+gem 'mini_magick',             '4.7.0'
+# Use fog for image upload in production
+gem 'fog',                     '1.40.0'
 # Use will_paginate to paginate the users
 gem 'will_paginate',           '3.1.5'
 # Configures will_paginate to use Bootstrap’s pagination styles
