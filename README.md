@@ -6,6 +6,7 @@ Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
 Ruby version: 2.4.0
+
 Rails version: 5.0.4
 
 ## Getting started
@@ -33,6 +34,6 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
-On a local server, paste the URL http://localhost:3000 into the address bar of your browser.
+On a local server, view at http://localhost:3000.
 
 
