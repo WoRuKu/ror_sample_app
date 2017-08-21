@@ -1,7 +1,12 @@
-# README
+# Ruby on Rails sample application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Oriented on
+[*Ruby on Rails Tutorial:
+Learn Web Development with Rails*](http://www.railstutorial.org/)
+by [Michael Hartl](http://www.michaelhartl.com/).
+
+Ruby version: 2.4.0
+Rails version: 5.0.4
 
 ## Getting started
 
@@ -17,7 +22,7 @@ Next, migrate the database:
 $ rails db:migrate
 ```
 
-Finally, run the test suite to verify that everything is working correctly:
+Run the test suite to verify that everything is working correctly:
 
 ```
 $ rails test
@@ -28,23 +33,6 @@ If the test suite passes, you'll be ready to run the app in a local server:
 ```
 $ rails server
 ```
+On a local server, paste the URL http://localhost:3000 into the address bar of your browser.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
